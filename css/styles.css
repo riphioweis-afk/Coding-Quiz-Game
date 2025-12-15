@@ -1,0 +1,101 @@
+
+body {
+    background-color: rgb(76, 150, 184);
+
+    
+
+
+
+
+}
+h1 {
+    text-align: center;
+    color: #0e0808;
+    font-family: 'Arial', sans-serif;
+    margin-top: 30px;
+
+}
+
+
+h2 {
+    text-align: center;
+    color: #0e0808;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+
+}
+
+p {
+    text-align: center;
+    color: #0e0808;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+
+
+}
+a {
+    font-size: 18px;
+    text-align: center;
+    color: #070303;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none
+
+}
+.category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.category-button {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.category-button:hover {
+    background-color: #45a049;
+}
+
+.mainbtn button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f44336;
+    color: rgb(240, 231, 231);
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mainbtn button:hover { 
+    background-color: #da190b;
+}
+
+.startGame-btn button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #246a3a;
+    color: rgb(245, 234, 234);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.startGame-btn button:hover {
+    background-color: #007bb5;
+}   
