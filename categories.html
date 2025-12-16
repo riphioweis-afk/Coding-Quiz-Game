@@ -11,12 +11,26 @@
 <body>
     <h1>Choose a Category</h1>
     <div class="category-container">
-        <a href="#" class="category-button">Python</a>
-        <a href="#" class="category-button">JavaScript</a>
+        <a href="#" class="category-button" onclick="startQuiz(`Python`)">Python</a>
+        <a href="#" class="category-button" onclick="startQuiz(`JavaScript`)">JavaScript</a>
        
     </div>
+    <div class="Quiz">
+        <div class="progress">Questions <span id="questionNumber">1</span> of <span id="totalQuestions">5</span></div>
+        <div class="question-box">
+            <div class="question-text" id="question"></div>
+            <div class="options" id="options"></div>
+        </div>
+        <button class="next-btn" id="nextBtn" onclick="nextQuestion()" disabled>Next question</button>
+    </div>
+    <div class="results-section">
+         <div class="score" id="finalScore"></div>
+                <p id="resultMessage">Great job completing the quiz!</p>
+    <button class="restart-btn" onclick="restart()">Play Again</button>
+
+    </div>
+
     <p><a href="index.html" class="mainbtn"><button>Main menu</button></a></p>
+
 </body>
 </html>
-
-
