@@ -7,9 +7,10 @@
     <script defer src="app.js"></script>
 
     <title>Choose a Category</title>
-    
-<body>
+
+
     <h1>Choose a Category</h1>
+</head>
     <div class="category-container">
         <a href="#" class="category-button" onclick="startQuiz(`Python`)">Python</a>
         <a href="#" class="category-button" onclick="startQuiz(`JavaScript`)">JavaScript</a>
@@ -25,12 +26,14 @@
     </div>
     <div class="results-section">
          <div class="score" id="finalScore"></div>
-                <p id="resultMessage">Great job completing the quiz!</p>
+         </div> 
+    <div class="restart-container"></div>
     <button class="restart-btn" onclick="restart()">Play Again</button>
+    </div>
 
+</body>
     </div>
 
     <p><a href="index.html" class="mainbtn"><button>Main menu</button></a></p>
 
-</body>
 </html>

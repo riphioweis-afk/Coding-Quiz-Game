@@ -1,35 +1,61 @@
 
+
+
 body {
-    background-color: rgb(76, 150, 184);
-
-    
-
-
-
-
+   background-image: url("https://plus.unsplash.com/premium_photo-1752736615572-5f4355eb2dfb?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
 }
 h1 {
-    text-align: center;
-    color: #0e0808;
+    background: #140b0b;
+    border: 2px solid #0f0;
+    color: #0f0;  
+    
     font-family: 'Arial', sans-serif;
     margin-top: 30px;
-
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
-
+.intro-section {
+    text-align: center;
+}
+   
 
 h2 {
     text-align: center;
-    color: #0e0808;
-    font-family: 'Arial', sans-serif;
-    margin-top: 20px;
+    background: #140b0b;
+  border: 2px solid #0f0;
+  color: #0f0;
+    padding: 10px;
+    margin: 10px;
+     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
 
 }
 
 p {
     text-align: center;
-    color: #0e0808;
+    background: #140b0b;
+  border: 2px solid #0f0;
+  color: #0f0;
     font-family: 'Arial', sans-serif;
     margin-top: 20px;
+     width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
 
 
 }
@@ -48,54 +74,57 @@ a {
     text-decoration: none
 
 }
-.category-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+
+.btn {
+  position: center;
+  padding: 1.5rem 3rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e5dede;
+  background: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  place-items: center;
+  margin: 200px auto;
+  
+
 }
-.category-button {
-    display: block;
-    width: 200px;
-    padding: 15px;
-    margin: 10px 0;
-    background-color: #4CAF50;
-    color: white;
+.aligns{
     text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-.category-button:hover {
-    background-color: #45a049;
+    padding: 175px;
 }
 
-.mainbtn button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #f44336;
-    color: rgb(240, 231, 231);
-    border: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.mainbtn button:hover { 
-    background-color: #da190b;
+.matrix {
+  background: #140b0b;
+  border: 2px solid #0f0;
+  color: #0f0;
 }
 
-.startGame-btn button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #246a3a;
-    color: rgb(245, 234, 234);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.code-rain {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 0, 0) 0%,
+    rgba(0, 255, 0, 0.2) 50%,
+    rgba(0, 255, 0, 0) 100%
+  );
+  opacity: 0;
+  transition: 0.3s;
 }
-.startGame-btn button:hover {
-    background-color: #007bb5;
-}   
+
+.matrix:hover .code-rain {
+  opacity: 1;
+  animation: rain 1s linear infinite;
+}
+
+@keyframes rain {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

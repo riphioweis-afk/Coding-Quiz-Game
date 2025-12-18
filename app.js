@@ -1,3 +1,4 @@
+
 const quizData = {
     Python: [
         {
@@ -65,9 +66,6 @@ let selectedAnswer = null;
 
 
 
-
-
-
 function startQuiz(category) {
     currentCategory = category;
     currentQuestion = 0;
@@ -81,7 +79,7 @@ function startQuiz(category) {
     // Show quiz section
     document.querySelector('.Quiz').style.display = 'block';
     
-    // Update total questions
+    //  total questions
     document.getElementById('totalQuestions').textContent = quizData[category].length;
     
     loadQuestion();
@@ -90,7 +88,7 @@ function startQuiz(category) {
 function loadQuestion() {
     const question = quizData[currentCategory][currentQuestion];
     
-    // Update question number
+    // question number
     document.getElementById('questionNumber').textContent = currentQuestion + 1;
     
     // Display question
@@ -151,7 +149,8 @@ function showResults() {
     
     // Show results section
     document.querySelector('.results-section').style.display = 'block';
-    
+    document.querySelector('.restart-btn').style.display = 'inline-block';
+
     const totalQuestions = quizData[currentCategory].length;
     const resultMessage = document.getElementById('resultMessage');
     const finalScore = document.getElementById('finalScore');
@@ -182,3 +181,5 @@ function restart() {
     // Reset quiz section
     document.querySelector('.Quiz').style.display = 'none';
 }
+
+
