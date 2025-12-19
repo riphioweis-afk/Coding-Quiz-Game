@@ -151,7 +151,13 @@ a {
     font-size: 18px;
     border-radius: 5px;
     margin: 20px auto;
+    align-items: center;
 
+
+}
+.button.restart-btn {
+    display: flex;
+    align-items: center;
 
 }
 .results-section {
