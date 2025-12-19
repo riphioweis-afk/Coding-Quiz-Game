@@ -1,6 +1,6 @@
 # Creating a Coding Quiz game Game! 
 ---
-![mainPage](//screenshot.png/Screenshot%202025-12-19%20at%2002.36.32.png)
+![main](//screenshot.png/Screenshot%202025-12-19%20at%2002.36.32.png)
 > Features include category selection, score tracking, animated confetti for perfect scores, and a beautiful background interface.
 ---
 
