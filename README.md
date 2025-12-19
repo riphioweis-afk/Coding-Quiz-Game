@@ -122,9 +122,13 @@ ___
 
 * [Matrix Effect](https://prismic.io/blog/css-button-animations)
 * [Matrix soundtrack](https://archive.org/details/matrix-soundtrack-collection)
+___
 
-
-
+## Furture Enhancements
+* A level difficulty 
+* More categories 
+* A hint button to help the user
+___
 
 
 
